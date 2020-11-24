@@ -1,30 +1,3 @@
-@keyframes fast-rainbow{
-	0%{
-		--fastRainbowColor: 133, 252, 106; 	/*	blurple	-	default:	114,137,218		*/
-	}
-
-	25%{
-		--fastRainbowColor: 255, 48, 48; 	/*	blurple	-	default:	114,137,218		*/
-	}
-
-	50%{
-		--fastRainbowColor: 255, 48, 231;		/*	blurple	-	default:	114,137,218		*/
-	}
-
-	75%{
-		--fastRainbowColor: 48, 134, 255;		/*	blurple	-	default:	114,137,218		*/
-	}
-
-	100%{
-		--fastRainbowColor: 133, 252, 106;	/*	blurple	-	default:	114,137,218		*/
-	}
-}
-
-:root {
-    animation: fast-rainbow 5s infinite linear;
-    --fastRainbowColor:         255, 255, 255;         /*    main color                -     default:    114,137,218    -     hex:    #7289da   */
-}
-
 /* ALBEE */
 /* #region */
 *[aria-label="Albee, Online"] rect{
