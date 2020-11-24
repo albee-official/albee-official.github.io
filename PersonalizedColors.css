@@ -21,7 +21,7 @@
 }
 
 :root {
-    animation: fast-rainbow 4s infinite linear;
+    animation: fast-rainbow 5s infinite linear;
     --fastRainbowColor:         255, 255, 255;         /*    main color                -     default:    114,137,218    -     hex:    #7289da   */
 }
 
