@@ -1,0 +1,59 @@
+/* ALBEE */
+/* #region */
+*[aria-label="Albee, Online"] rect{
+	--status-color-online: rgb(169, 138, 255);
+	fill:  var(--status-color-online);
+	rx: 5px;
+	ry: 5px;
+}
+
+*[aria-label="Albee, Online via mobile"]{
+	--status-color-online: rgb(169, 138, 255);
+	/* fill: var(--status-color-online); */
+}
+
+*[aria-label="Albee, Online via mobile"] svg rect{
+	fill: var(--status-color-online);
+	mask: url('#svg-mask-status-online-mobile');
+}
+/* #endregion */
+
+/* FLAME */
+/* #region */
+*[aria-label="Flame, Online"] rect{
+	--status-color-online: rgb(238, 130, 238);
+	fill: var(--status-color-online);
+	rx: 5px;
+	ry: 5px;
+}
+
+*[aria-label="Flame, Online via mobile"]{
+	--status-color-online: rgb(238, 130, 238);
+	/* fill: var(--status-color-online); */
+}
+
+*[aria-label="Flame, Online via mobile"] svg rect{
+	fill: var(--status-color-online);
+	mask: url('#svg-mask-status-online-mobile');
+}
+/* #endregion */
+
+/* FALCION */
+/* #region */
+*[aria-label="Falcion, Online"] rect{
+	--status-color-online: rgb(111, 174, 179);
+	fill:  var(--status-color-online);
+	rx: 5px;
+	ry: 5px;
+}
+
+*[aria-label="Falcion, Online via mobile"]{
+	--status-color-online: rgb(111, 174, 179);
+	/* fill: var(--status-color-online); */
+}
+
+*[aria-label="Falcion, Online via mobile"] svg rect{
+	fill: var(--status-color-online);
+	mask: url('#svg-mask-status-online-mobile');
+}
+/* #endregion */
