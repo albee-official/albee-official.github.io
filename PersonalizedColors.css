@@ -1,3 +1,30 @@
+@keyframes fast-rainbow{
+	0%{
+		--fastRainbowColor: 133, 252, 106; 	/*	blurple	-	default:	114,137,218		*/
+	}
+
+	25%{
+		--fastRainbowColor: 255, 48, 48; 	/*	blurple	-	default:	114,137,218		*/
+	}
+
+	50%{
+		--fastRainbowColor: 179, 48, 255;		/*	blurple	-	default:	114,137,218		*/
+	}
+
+	75%{
+		--fastRainbowColor: 48, 134, 255;		/*	blurple	-	default:	114,137,218		*/
+	}
+
+	100%{
+		--fastRainbowColor: 133, 252, 106;	/*	blurple	-	default:	114,137,218		*/
+	}
+}
+
+:root {
+    animation: fast-rainbow 4s infinite linear;
+    --fastRainbowColor:         133, 252, 106;         /*    main color                -     default:    114,137,218    -     hex:    #7289da   */
+}
+
 /* ALBEE */
 /* #region */
 *[aria-label="Albee, Online"] rect{
@@ -21,22 +48,22 @@
 /* FLAME */
 /* #region */
 *[aria-label="Flame, Online"] rect{
-	--status-color-online: rgb(var(--rainbowColor));
+	--status-color-online: rgb(var(--fastRainbowColor));
     fill: var(--status-color-online);
-    transition: fill 4s linear;
+    transition: fill 2s linear;
 	rx: 5px;
 	ry: 5px;
 }
 
 *[aria-label="Flame, Online via mobile"]{
-    --status-color-online: rgb(var(--rainbowColor));
-    transition: fill 4s linear;
+    --status-color-online: rgb(var(--fastRainbowColor));
+    transition: fill 2s linear;
 	/* fill: var(--status-color-online); */
 }
 
 *[aria-label="Flame, Online via mobile"] svg rect{
     fill: var(--status-color-online);
-    transition: fill 4s linear;
+    transition: fill 2s linear;
 	mask: url('#svg-mask-status-online-mobile');
 }
 /* #endregion */
