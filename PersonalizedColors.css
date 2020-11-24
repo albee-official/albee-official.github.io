@@ -8,7 +8,7 @@
 	}
 
 	50%{
-		--fastRainbowColor: 179, 48, 255;		/*	blurple	-	default:	114,137,218		*/
+		--fastRainbowColor: 255, 48, 231;		/*	blurple	-	default:	114,137,218		*/
 	}
 
 	75%{
@@ -22,7 +22,7 @@
 
 :root {
     animation: fast-rainbow 4s infinite linear;
-    --fastRainbowColor:         133, 252, 106;         /*    main color                -     default:    114,137,218    -     hex:    #7289da   */
+    --fastRainbowColor:         255, 255, 255;         /*    main color                -     default:    114,137,218    -     hex:    #7289da   */
 }
 
 /* ALBEE */
@@ -50,20 +50,20 @@
 *[aria-label="Flame, Online"] rect{
 	--status-color-online: rgb(var(--fastRainbowColor));
     fill: var(--status-color-online);
-    transition: fill 2s linear;
+    transition: fill 1s linear;
 	rx: 5px;
 	ry: 5px;
 }
 
 *[aria-label="Flame, Online via mobile"]{
     --status-color-online: rgb(var(--fastRainbowColor));
-    transition: fill 2s linear;
+    transition: fill 1s linear;
 	/* fill: var(--status-color-online); */
 }
 
 *[aria-label="Flame, Online via mobile"] svg rect{
     fill: var(--status-color-online);
-    transition: fill 2s linear;
+    transition: fill 1s linear;
 	mask: url('#svg-mask-status-online-mobile');
 }
 /* #endregion */
