@@ -57,3 +57,23 @@
 	mask: url('#svg-mask-status-online-mobile');
 }
 /* #endregion */
+
+/* FENIXOLAFEN */
+/* #region */
+*[aria-label="FenixoLáFen, Online"] rect{
+	--status-color-online: rgb(112, 26, 37);
+	fill:  var(--status-color-online);
+	rx: 5px;
+	ry: 5px;
+}
+
+*[aria-label="FenixoLáFen, Online via mobile"]{
+	--status-color-online: rgb(112, 26, 37);
+	/* fill: var(--status-color-online); */
+}
+
+*[aria-label="FenixoLáFen, Online via mobile"] svg rect{
+	fill: var(--status-color-online);
+	mask: url('#svg-mask-status-online-mobile');
+}
+/* #endregion */
