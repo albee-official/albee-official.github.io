@@ -21,19 +21,22 @@
 /* FLAME */
 /* #region */
 *[aria-label="Flame, Online"] rect{
-	--status-color-online: rgb(238, 130, 238);
-	fill: var(--status-color-online);
+	--status-color-online: rgb(var(--rainbowColor));
+    fill: var(--status-color-online);
+    transition: fill 4s linear;
 	rx: 5px;
 	ry: 5px;
 }
 
 *[aria-label="Flame, Online via mobile"]{
-	--status-color-online: rgb(238, 130, 238);
+    --status-color-online: rgb(var(--rainbowColor));
+    transition: fill 4s linear;
 	/* fill: var(--status-color-online); */
 }
 
 *[aria-label="Flame, Online via mobile"] svg rect{
-	fill: var(--status-color-online);
+    fill: var(--status-color-online);
+    transition: fill 4s linear;
 	mask: url('#svg-mask-status-online-mobile');
 }
 /* #endregion */
@@ -61,14 +64,14 @@
 /* FENIXOLAFEN */
 /* #region */
 *[aria-label="FenixoLáFen, Online"] rect{
-	--status-color-online: rgb(115, 129, 209);
+	--status-color-online: rgb(61, 162, 212);
 	fill:  var(--status-color-online);
 	rx: 5px;
 	ry: 5px;
 }
 
 *[aria-label="FenixoLáFen, Online via mobile"]{
-	--status-color-online: rgb(115, 129, 209);
+	--status-color-online: rgb(61, 162, 212);
 	/* fill: var(--status-color-online); */
 }
 
