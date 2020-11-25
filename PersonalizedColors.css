@@ -80,3 +80,24 @@
 	mask: url('#svg-mask-status-online-mobile');
 }
 /* #endregion */
+
+/* АНДРЕЙ */
+/* #region */
+*[aria-label="Ехидна, Idle"] rect{
+	--status-color-online: rgb(255, 255, 255);
+	fill:  var(--status-color-online);
+	mask: url(#svg-mask-status-idle);
+	rx: 5px;
+	ry: 5px;
+}
+
+*[aria-label="Ехидна, Online via mobile"]{
+	--status-color-online: rgb(255, 255, 255);
+	/* fill: var(--status-color-online); */
+}
+
+*[aria-label="Ехидна, Online via mobile"] svg rect{
+	fill: var(--status-color-online);
+	mask: url('#svg-mask-status-online-mobile');
+}
+/* #endregion */
