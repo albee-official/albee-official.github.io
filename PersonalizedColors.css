@@ -44,14 +44,14 @@
 /* FALCION */
 /* #region */
 *[aria-label="Falcion, Online"] rect{
-	--status-color-online: rgb(111, 174, 179);
+	--status-color-online: rgb(255, 255, 255);
 	fill:  var(--status-color-online);
 	rx: 5px;
 	ry: 5px;
 }
 
 *[aria-label="Falcion, Online via mobile"]{
-	--status-color-online: rgb(111, 174, 179);
+	--status-color-online: rgb(255, 255, 255);
 	/* fill: var(--status-color-online); */
 }
 
