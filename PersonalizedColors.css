@@ -1,103 +1,87 @@
+.cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+}
+
+.cursorDefault-dsQJ1n + rect{
+	fill: transparent !important;
+}
+
+.cursorDefault-dsQJ1n + svg{
+	fill: transparent !important;
+}
+
+.panels-j1Uci_ .avatar-SmRMf2 .mask-1l8v16 > svg > rect{
+	fill: var(--status-color-persona) !important;
+}
+
+.panels-j1Uci_ .avatar-SmRMf2 .mask-1l8v16 > .pointerEvents-2zdfdO{
+	fill: transparent !important;
+}
+
+.panels-j1Uci_ .avatar-SmRMf2 .mask-1l8v16 rect[mask]{
+	fill: var(--status-color-persona) !important;
+}
+
 /* ALBEE */
 /* #region */
-*[aria-label="Albee, Online"] rect{
-	--status-color-online: rgb(169, 138, 255);
-	fill:  var(--status-color-online);
-	rx: 5px;
-	ry: 5px;
+*[aria-label*="Albee"] *{
+	--status-color-persona: rgb(169, 138, 255);
 }
 
-*[aria-label="Albee, Online via mobile"]{
-	--status-color-online: rgb(169, 138, 255);
-	/* fill: var(--status-color-online); */
-}
-
-*[aria-label="Albee, Online via mobile"] svg rect{
-	fill: var(--status-color-online);
-	mask: url('#svg-mask-status-online-mobile');
+*[aria-label*="Albee"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
 }
 /* #endregion */
 
 /* FLAME */
 /* #region */
-*[aria-label="Flame, Online"] rect{
-	--status-color-online: rgb(var(--fastRainbowColor));
-    fill: var(--status-color-online);
-    transition: fill 1s linear;
-	rx: 5px;
-	ry: 5px;
+*[aria-label*="Flame"] *{
+	--status-color-persona: rgb(var(--fastRainbowColor));
 }
 
-*[aria-label="Flame, Online via mobile"]{
-    --status-color-online: rgb(var(--fastRainbowColor));
-    transition: fill 1s linear;
-	/* fill: var(--status-color-online); */
-}
 
-*[aria-label="Flame, Online via mobile"] svg rect{
-    fill: var(--status-color-online);
-    transition: fill 1s linear;
-	mask: url('#svg-mask-status-online-mobile');
+*[aria-label*="Flame"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
 }
 /* #endregion */
 
 /* FALCION */
 /* #region */
-*[aria-label="Falcion, Online"] rect{
-	--status-color-online: rgb(255, 255, 255);
-	fill:  var(--status-color-online);
-	rx: 5px;
-	ry: 5px;
+*[aria-label*="Falcion"] *{
+	--status-color-persona: rgb(255, 255, 255);
 }
 
-*[aria-label="Falcion, Online via mobile"]{
-	--status-color-online: rgb(255, 255, 255);
-	/* fill: var(--status-color-online); */
+*[aria-label*="Falcion"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
 }
 
-*[aria-label="Falcion, Online via mobile"] svg rect{
-	fill: var(--status-color-online);
-	mask: url('#svg-mask-status-online-mobile');
+*[aria-label*="Falcion"] .dots-3Bkt3k{
+	color: #000;
 }
 /* #endregion */
 
 /* FENIXOLAFEN */
 /* #region */
-*[aria-label="FenixoLáFen, Online"] rect{
-	--status-color-online: rgb(61, 162, 212);
-	fill:  var(--status-color-online);
-	rx: 5px;
-	ry: 5px;
+*[aria-label*="FenixoLáFen"] *{
+	--status-color-persona: rgb(61, 162, 212);
 }
 
-*[aria-label="FenixoLáFen, Online via mobile"]{
-	--status-color-online: rgb(61, 162, 212);
-	/* fill: var(--status-color-online); */
-}
-
-*[aria-label="FenixoLáFen, Online via mobile"] svg rect{
-	fill: var(--status-color-online);
-	mask: url('#svg-mask-status-online-mobile');
+*[aria-label*="FenixoLáFen"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
 }
 /* #endregion */
 
 /* АНДРЕЙ */
 /* #region */
-*[aria-label="Ехидна, Idle"] rect{
-	--status-color-online: rgb(255, 255, 255);
-	fill:  var(--status-color-online);
-	mask: url(#svg-mask-status-idle);
-	rx: 5px;
-	ry: 5px;
+*[aria-label*="Ехидна"] *{
+	--status-color-persona: rgb(255, 255, 255);
 }
 
-*[aria-label="Ехидна, Online via mobile"]{
-	--status-color-online: rgb(255, 255, 255);
-	/* fill: var(--status-color-online); */
+*[aria-label*="Ехидна"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
 }
 
-*[aria-label="Ехидна, Online via mobile"] svg rect{
-	fill: var(--status-color-online);
-	mask: url('#svg-mask-status-online-mobile');
+*[aria-label*="Ехидна"] .dots-3Bkt3k{
+	color: #000;
 }
 /* #endregion */
