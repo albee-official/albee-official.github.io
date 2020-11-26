@@ -22,6 +22,10 @@
 	fill: var(--status-color-persona) !important;
 }
 
+.pointerEvents-2zdfdO{
+	transition: fill 1s linear;
+}
+
 /* ALBEE */
 /* #region */
 *[aria-label*="Albee"] *{
