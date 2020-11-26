@@ -1,5 +1,6 @@
 .cursorDefault-dsQJ1n > rect{
 	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
 }
 
 .cursorDefault-dsQJ1n + rect{
@@ -12,6 +13,7 @@
 
 .panels-j1Uci_ .avatar-SmRMf2 .mask-1l8v16 > svg > rect{
 	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
 }
 
 .panels-j1Uci_ .avatar-SmRMf2 .mask-1l8v16 > .pointerEvents-2zdfdO{
@@ -20,6 +22,7 @@
 
 .panels-j1Uci_ .avatar-SmRMf2 .mask-1l8v16 rect[mask]{
 	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
 }
 
 .pointerEvents-2zdfdO{
