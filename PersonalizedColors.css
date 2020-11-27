@@ -1,8 +1,3 @@
-.cursorDefault-dsQJ1n > rect{
-	fill: var(--status-color-persona) !important;
-	transition: fill 1s linear;
-}
-
 .cursorDefault-dsQJ1n + rect{
 	fill: transparent !important;
 }
@@ -38,6 +33,11 @@
 *[aria-label*="Albee"] .pointerEvents-2zdfdO{
 	fill: var(--status-color-persona);
 }
+
+*[aria-label*="Albee"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
+}
 /* #endregion */
 
 /* Flame */
@@ -49,6 +49,11 @@
 
 *[aria-label*="Flame"] .pointerEvents-2zdfdO{
 	fill: var(--status-color-persona);
+}
+
+*[aria-label*="Flame"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
 }
 /* #endregion */
 
@@ -65,6 +70,11 @@
 *[aria-label*="Falcion"] .dots-3Bkt3k{
 	color: #000;
 }
+
+*[aria-label*="Falcion"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
+}
 /* #endregion */
 
 /* FenixoLáFen */
@@ -75,6 +85,11 @@
 
 *[aria-label*="FenixoLáFen"] .pointerEvents-2zdfdO{
 	fill: var(--status-color-persona);
+}
+
+*[aria-label*="FenixoLáFen"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
 }
 /* #endregion */
 
@@ -91,6 +106,11 @@
 *[aria-label*="Ехидна"] .dots-3Bkt3k{
 	color: #000;
 }
+
+*[aria-label*="Ехидна"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
+}
 /* #endregion */
 
 /* combinator */
@@ -101,5 +121,10 @@
 
 *[aria-label*="combinator"] .pointerEvents-2zdfdO{
 	fill: var(--status-color-persona);
+}
+
+*[aria-label*="combinator"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
 }
 /* #endregion */
