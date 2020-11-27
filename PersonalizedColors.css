@@ -128,3 +128,19 @@
 	transition: fill 1s linear;
 }
 /* #endregion */
+
+/* Sauzzeth */
+/* #region */
+*[aria-label*="sauzzeth"] *{
+	--status-color-persona: rgb(255, 156, 156);
+}
+
+*[aria-label*="sauzzeth"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
+}
+
+*[aria-label*="sauzzeth"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
+}
+/* #endregion */
