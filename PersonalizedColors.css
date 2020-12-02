@@ -144,3 +144,19 @@
 	transition: fill 1s linear;
 }
 /* #endregion */
+
+/* Rocker */
+/* #region */
+*[aria-label*="Rocker"] *{
+	--status-color-persona: rgb(248, 52, 95);
+}
+
+*[aria-label*="Rocker"] .pointerEvents-2zdfdO{
+	fill: var(--status-color-persona);
+}
+
+*[aria-label*="Rocker"] .cursorDefault-dsQJ1n > rect{
+	fill: var(--status-color-persona) !important;
+	transition: fill 1s linear;
+}
+/* #endregion */
