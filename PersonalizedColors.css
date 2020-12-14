@@ -60,7 +60,7 @@
 /* Falcion */
 /* #region */
 *[aria-label*="Falcion"] *{
-	--status-color-persona: rgb(255, 255, 255);
+	--status-color-persona: #F28DC4;
 }
 
 *[aria-label*="Falcion"] .pointerEvents-2zdfdO{
@@ -68,7 +68,7 @@
 }
 
 *[aria-label*="Falcion"] .dots-3Bkt3k{
-	color: #000;
+	color: #3E3840;
 }
 
 *[aria-label*="Falcion"] .cursorDefault-dsQJ1n > rect{
