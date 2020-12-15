@@ -27,7 +27,7 @@
 /* Albee */
 /* #region */
 *[aria-label*="Albee"] *{
-	--status-color-persona: rgb(102, 92, 122);
+	--status-color-persona:#6B698D;
 }
 
 *[aria-label*="Albee"] .pointerEvents-2zdfdO{
